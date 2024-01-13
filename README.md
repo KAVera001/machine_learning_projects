@@ -21,5 +21,17 @@ Files with regression models:
    
 3. retail_sales_regression_notebook.ipynb - this project aims to predict the daily sales of the item for each store. We start with data analysis and feature engineering. We use LGBM Regressor to predict the daily sales.
 
+_______________________
+Time Series Modelling:
+1. last-weather-prediction-timeseriesfinalproject.ipynb - the goal is to predict the weather 2 weeks ahead (14 days ahead). LSTM architecture was used.
+   
+2. Seasonal_Analysis_Fourier.ipynb
+
+_______________________
+Deep learning projects:
+1. steel_defects_notebook.ipynb, resnet-augmentation.ipynb - deep learning project was completed in collaboration with Ksenia Alexander. Predicting the location and type of defects in steel manufacturing
+The goal of the study was to predict the location and type of defects found in steel manufacturing. The study aimed to segment defects of each class (the classes were predefined by Severstal company) for each image, where each image may have no defects, a defect of a single class, or defects of multiple classes. To increase the size of training data, the study implemented image augmentation with the Albu- minations library and compared the results with and with- out augmentation. The study tested U-Net models with dif- ferent backbones to determine the most effective model for this task. The study used mean Dice coefficient and other possible metrics to evaluate the performance of the models. Overall, the study aimed to improve the accuracy of detect- ing and classifying defects in steel manufacturing, which is an important problem in the manufacturing industry.
+
+2. deep_learning_two_layer.ipynb
 
 
